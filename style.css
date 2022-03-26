@@ -1,0 +1,63 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 600px;
+  background-image: url("https://pbs.twimg.com/profile_images/1637588338/images_400x400.jpg");
+  background-color: #000000;
+  background-size: 150px;
+  background-position: center bottom;
+  background-repeat: repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  text-align: center;
+  margin-top: 16px;
+  -webkit-text-stroke: 1px red;
+  font-size: 26px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+@media (max-height: 500px) {
+  body {
+    min-height: 800px;
+  }
+}
+
+input {
+  margin: 4px;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+button {
+  margin-top: 12px;
+  padding: 4px 8px;
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+.resultado {
+  color: black;
+  text-align: center;
+  margin-top: 16px;
+  -webkit-text-stroke: 1px red;
+}
+
+h1 {
+  -webkit-text-stroke: 2px black;
+  font-family: arial;
+  color: black;
+}
